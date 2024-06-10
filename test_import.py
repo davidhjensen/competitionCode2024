@@ -1,3 +1,3 @@
-import modules.arduino.SensorArduino
+import modules.arduino.motor_mirco_interface as motor_micro
 
-test = SensorArduino("dev/tty0", 115200)
+test = motor_micro.MotorArduino("dev/tty0", 115200)
